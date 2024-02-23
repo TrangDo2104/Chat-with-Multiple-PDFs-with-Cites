@@ -44,7 +44,7 @@ To use the OpenAI API, an API key is required:
 ### Installation
 
 1. Clone the repository:
-git clone https://github.com/<your-username>/final-chat-with-pdf.git
+git clone https://github.com/TrangDo2104/final-chat-with-pdf.git
 
 2. Navigate to the project directory and install the required dependencies:
 cd final-chat-with-pdf
