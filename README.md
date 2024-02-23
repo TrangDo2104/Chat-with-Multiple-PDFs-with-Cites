@@ -67,7 +67,7 @@ streamlit run app.py
 ## Planned Improvements
 
 1. **Reference Text Filtering:** 
-- ***Current Limitation***: The application currently provides reference texts from uploaded documents even when the responses are not directly related to the user's query. This can lead to situations where users are presented with information that, while related, may not be directly relevant to their question.
+- ***Current Limitation***: Our application ensures relevance by focusing directly on user queries, avoiding responses to unrelated questions such as "How can I help you?" or misunderstandings like "I don't get information from the uploaded documents." However, it's important to note that reference texts from uploaded documents are still provided below the main answer.
 - ***Proposed Enhancement***: Implement a filtering mechanism to restrict the provision of reference texts strictly to those directly relevant to the user's query. Currently, I used a UI element like a dropdown (expander) to allow users to choose when to view these references, thereby not cluttering the interface with potentially irrelevant information.
 2. **Advanced Information Retrieval:** 
 - ***Current Limitation***:The system is capable of retrieving reference text information from the uploaded documents but does not offer show specific source files or page numbers. This limits the user's ability to locate the exact source of the information within the documents.
