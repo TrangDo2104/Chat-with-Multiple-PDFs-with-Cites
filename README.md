@@ -8,6 +8,27 @@ The application is capable of providing reference texts from the uploaded docume
 
 Deployed on Streamlit, this project exemplifies a practical application of natural language processing and document handling within a web application.
 
+## Technologies
+### RAG's Architecture Components
+
+1. **Retrieval Component:** Responsible for fetching relevant information from a database or document collection based on the user's query.
+2. **Generation Component:** Utilizes the retrieved information to generate coherent and contextually appropriate responses.
+   
+### Roles of LangChain and OpenAI API
+
+1. **LangChain (Within the Retrieval Component):** LangChain's RetrievalQA is integral to the retrieval component. It indexes and understands the content of multiple PDFs, enabling the system to perform semantic searches across the documents. This capability ensures that the most relevant passages are identified and retrieved in response to user queries, setting the foundation for accurate and informed response generation.
+
+2. **OpenAI API (Within the Generation Component):** The OpenAI API, leveraging models like GPT-3.5, functions within the generation component. It takes the context and information retrieved by LangChain to construct detailed, natural language responses. The API's advanced language models are adept at synthesizing information, ensuring that the generated text is not only relevant but also engaging and nuanced, reflecting a deep understanding of the query and the retrieved data.
+
+### Integration in RAG's Architecture
+
+1. **Retrieval-QA for Precision:**  RetrievalQA excels in fetching specific reference texts from documents in response to user queries. This ensures that answers are not only relevant but also directly linked to the source material, enhancing the trustworthiness and depth of responses.
+
+2. **Generative Models for Coherence:** With the relevant information retrieved, OpenAI's generative models craft responses that are coherent, contextually enriched, and reflective of the input query and the retrieved document content. This process exemplifies how generative AI can transform raw data into meaningful dialogue.
+
+### Streamlit for User-Friendly Interface and Real-time Interaction
+
+Streamlit is the preferred choice for deploying this chat application due to its streamlined deployment process and exceptional support for data science and machine learning projects. Its ability to rapidly create user-friendly interfaces with minimal coding makes it particularly suited for applications that require interactive data handling and real-time user engagement. This makes Streamlit an ideal framework for developing and launching applications that blend sophisticated backend logic with an intuitive frontend, ensuring a seamless and engaging user experience.
 
 ## OpenAI API Key Management and Usage
 
@@ -25,16 +46,16 @@ To use the OpenAI API, an API key is required:
 
 ### Important Considerations for Hosting
 
-- **Security Warning:** The OpenAI API key is unable to be hosted in public repositories (e.g., GitHub) as it can lead to unauthorized use and financial charges. OpenAI automatically disables exposed keys to prevent misuse.
-- **Local Deployment:** It's recommended to run the application locally to keep your API key secure.
+1. **Security Warning:** The OpenAI API key is unable to be hosted in public repositories (e.g., GitHub) as it can lead to unauthorized use and financial charges. OpenAI automatically disables exposed keys to prevent misuse.
+2. **Local Deployment:** It's recommended to run the application locally to keep your API key secure.
 
 
 ## Features
 
-- **Interactive Chat Interface:** Ask questions and receive answers that reference the contents of uploaded PDF files.
-- **Multi-Document Support:** Upload and process multiple PDF files simultaneously for comprehensive query support.
-- **Secure User Verification:** Demonstrates user authentication and management through a SQL database.
-- **Contextual Answers with References:** Provides reference excerpts directly from the uploaded documents to back up the chatbot's responses.
+1. **Interactive Chat Interface:** Ask questions and receive answers that reference the contents of uploaded PDF files.
+2. **Multi-Document Support:** Upload and process multiple PDF files simultaneously for comprehensive query support.
+3. **Secure User Verification:** Demonstrates user authentication and management through a SQL database.
+4. **Contextual Answers with References:** Provides reference excerpts directly from the uploaded documents to back up the chatbot's responses.
 
 ## Getting Started
 
