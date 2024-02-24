@@ -26,6 +26,9 @@ Deployed on Streamlit, this project exemplifies a practical application of natur
 
 2. **Generative Models for Coherence:** With the relevant information retrieved, OpenAI's generative models craft responses that are coherent, contextually enriched, and reflective of the input query and the retrieved document content. This process exemplifies how generative AI can transform raw data into meaningful dialogue.
 
+![Alt text](images/RAG.png)
+[Koninck, 2023](https://blog.ml6.eu/leveraging-llms-on-your-domain-specific-knowledge-base-4441c8837b47)
+
 ### Streamlit for User-Friendly Interface and Real-time Interaction
 
 Streamlit is the preferred choice for deploying this chat application due to its streamlined deployment process and exceptional support for data science and machine learning projects. Its ability to rapidly create user-friendly interfaces with minimal coding makes it particularly suited for applications that require interactive data handling and real-time user engagement. This makes Streamlit an ideal framework for developing and launching applications that blend sophisticated backend logic with an intuitive frontend, ensuring a seamless and engaging user experience.
