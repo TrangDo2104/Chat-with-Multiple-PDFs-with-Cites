@@ -3,7 +3,7 @@ from apps.auth import login_user, register_user
 from apps.pdf_utils import get_pdf_text, get_text_chunks
 from apps.chat_utils import get_vectorstore, get_retrieval_qa, handle_userinput, handle_direct_query
 from apps.ui_utils import apply_custom_styles, display_chat_history
-from db import create_users_table
+from apps.db import create_users_table
 from dotenv import load_dotenv
 from langchain.embeddings import OpenAIEmbeddings
 
