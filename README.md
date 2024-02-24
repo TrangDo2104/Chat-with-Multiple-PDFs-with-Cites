@@ -27,6 +27,7 @@ Deployed on Streamlit, this project exemplifies a practical application of natur
 2. **Generative Models for Coherence:** With the relevant information retrieved, OpenAI's generative models craft responses that are coherent, contextually enriched, and reflective of the input query and the retrieved document content. This process exemplifies how generative AI can transform raw data into meaningful dialogue.
 
 ![Alt text](images/RAG.jpg)
+
 [Koninck, 2023](https://blog.ml6.eu/leveraging-llms-on-your-domain-specific-knowledge-base-4441c8837b47)
 
 ### Streamlit for User-Friendly Interface and Real-time Interaction
