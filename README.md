@@ -80,7 +80,7 @@ Launch the application by running:
 streamlit run app.py
 
 ## Usage
-
+**To ensure optimal functionality, please follow these steps:**
 1. **Sign Up/Login:** Start by signing up for an account or logging in.
 2. **Upload Documents:** Click on "Upload your PDFs" to select and process your documents.
 3. **Query:** Use the chat interface to ask questions and receive information based on the content of your uploaded documents.
