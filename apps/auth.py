@@ -1,5 +1,5 @@
 import streamlit as st
-from db import add_user, verify_user
+from .db import add_user, verify_user
 
 def login_user():
     """Handle the login process."""
