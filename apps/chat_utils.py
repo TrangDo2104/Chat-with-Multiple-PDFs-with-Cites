@@ -48,8 +48,7 @@ def handle_userinput():
         if "conversation" in st.session_state:
             response = st.session_state.conversation({'question': user_question})
             st.session_state.chat_history.append({"content": user_question, "sender": "user"})
-            # Assuming the last message in 'chat_history' is the AIMessage object and it has a .content attribute
-            bot_response = response['chat_history'][-1].content  # Corrected line
+            bot_response = response['chat_history'][-1].content
             st.session_state.chat_history.append({"content": bot_response, "sender": "bot"})
             st.session_state.user_input = ''  # Reset the input box after processing
 
