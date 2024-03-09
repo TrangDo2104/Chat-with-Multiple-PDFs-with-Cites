@@ -31,7 +31,6 @@ def main():
         login_user()  # Show login form
         register_user()  # Show registration form below the login form
     else:
-        # Your existing app logic here, users see this after logging in
         if "conversation" not in st.session_state:
             st.session_state.conversation = None
         if "chat_history" not in st.session_state:
